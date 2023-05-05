@@ -1,0 +1,42 @@
+.app-wrapper{
+    display: flex;
+    flex-direction: column;
+   // background-color: #cecaf3;
+    height: 100%;
+    align-items: center;
+
+    background-image: url(../assets/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-attachment: fixed;
+}
+.top-section{
+    //background-color: aquamarine;
+    text-align: center;
+    padding: 70px 0;
+
+    h1{
+        font-size: 100px;
+        font-weight: bold;
+        color: #f5f5f5;
+    }
+    h2{
+        font-size: 28px;
+        color: white;
+        text-shadow: 0px 1px 7px rgba(black, 0.12);
+    }
+}
+.content-section{ 
+   
+    flex-grow: 1;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    
+}
+// .bottom-secton{ 
+//     display: flex;
+
+// }
+

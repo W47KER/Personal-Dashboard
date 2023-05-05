@@ -1,0 +1,17 @@
+<div class="add-note-wrapper container has-blur-white-bg">
+    <h2 class="has">New Note</h2>
+    <form #form="ngForm" ngNativeValidate (ngSubmit)="onFormSubmit(form)"  >
+
+        <input type="text" ngModel  name="title" placeholder="Input Title" class="textbox" required>
+
+        <textarea class="textarea" ngModel name="content" placeholder="Enter note content....." required></textarea>
+
+        <div class="btn-container">
+
+            <a routerLink="../"  class="btn">Cancel</a>
+            
+            <button class="btn align-end" >Create note</button>
+        </div>
+    </form>
+</div>
+ 
